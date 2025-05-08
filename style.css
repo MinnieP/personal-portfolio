@@ -1,0 +1,243 @@
+.part{
+    background-color: #E0FBE2
+}
+.first{
+    background-color:#B0EBB4;
+    height: fit-content;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first>p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal ;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    padding: 1rem;
+    font-size: 1.5rem;
+    
+}
+.first>h1{
+    /* text-align: center; */
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 3.5rem;
+    text-transform: none;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.second{
+
+    /* background-color: #B0EBB4; */
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+
+
+
+}
+
+.second img{
+
+    border-radius: 50%;
+    margin-left: 5rem;
+    height: 15rem;
+    width: 15rem;
+    border: 1rem dotted #ACE1AF;
+    margin-right: 3rem;
+    
+    
+}
+
+.second p{
+
+    color: #333;
+    font-size: 1.3rem;
+    list-style: square;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal ;
+
+}
+
+.second ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left: 0; 
+  }
+
+.third{
+    background-color: #BFF6C3;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.third>.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hobby-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    flex: 0 1 calc(25% - 20px); /* Četiri slike po redu */
+    max-width: 25%;
+}
+
+.hobby-item.vertical img {
+    width: 100%;
+    height: 15rem;
+    border-radius: 8px;
+}
+
+.hobby-item.horizontal img {
+    width: 100%;
+    height: 7rem;
+    border-radius: 8px;
+}
+
+
+.fourth{
+    width: 100%;
+    height:fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .fourth p{
+    color: #333;
+    margin-top: 0;
+    padding-top: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal ;
+    font-size: 2rem;
+    
+  }
+
+  .fourth button{
+    margin-top: 2rem;
+    font-size: 20px;
+    background-color: #ACE1AF;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px; 
+    margin-bottom: 2.5rem;
+    
+  }
+
+  @media(min-width: 1367px) and (max-width: 1536px) {
+    .third>.container {
+        display: flex;
+        justify-content:center;
+        gap: 20px;
+        max-width: 1024px;
+    }
+
+    .hobby-item {
+        flex: 0 1 calc(23% - 20px); 
+        max-width: 23%;
+        margin: 8px;
+    }
+
+    .hobby-item img {
+        width: 100%;
+        height: auto;
+    }
+
+  }
+
+  @media(min-width: 1024px) and (max-width: 1366px) {
+    .third>.container {
+        
+        justify-content: center; 
+        gap: 15px;
+        
+    }
+
+    .hobby-item {
+        flex: 0 1 calc(23% - 15px); 
+        max-width: 23%;
+        margin: 8px;
+    }
+
+    .hobby-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+@media(max-width: 1024px) and (min-width: 769px) {
+    .third>.container {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hobby-item {
+        flex: 0 1 calc(50% - 20px); 
+        max-width: 45%;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .third>.container {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hobby-item {
+        flex: 0 1 45%; 
+        max-width: 45%;
+    }
+}
+
+
+@media(max-width: 480px) {
+    .third>.container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hobby-item {
+        flex: 0 1 100%; 
+        max-width: 100%;
+    }
+}
+
+
+
+
+
