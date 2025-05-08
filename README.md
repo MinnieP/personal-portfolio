@@ -28,5 +28,8 @@ Feel free to reach out via email through the interactive button on the webpage.
 
 ### Author
 
-Mina P
+MinnieP
 Frontend Developer
+
+# personal-portfolio
+
