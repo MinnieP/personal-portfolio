@@ -25,7 +25,7 @@
     
 }
 .first>h1{
-    /* text-align: center; */
+
     font-family: "Marck Script", cursive;
     font-weight: 400;
     font-style: normal; 
@@ -88,6 +88,32 @@
     align-items: center;
     
     
+}
+
+.third>h2{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal ;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    padding: 1rem;
+    font-size: 1.5rem;
+
+}
+
+.third p{
+
+    font-family: "Marck Script", cursive;
+    font-weight: 200;
+    font-style: normal; 
+    font-size: 1.5rem;
+    text-transform: none;
+    text-decoration: none;
+    text-decoration-style: none;
+
 }
 
 

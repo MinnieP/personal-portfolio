@@ -1,4 +1,4 @@
-# Personal Portfolio - Mina P
+# Personal Portfolio - MinnieP
 
 ## Project Description
 
