@@ -1,5 +1,7 @@
 # Personal Portfolio - MinnieP
 
+Live demo: https://minniep.github.io/personal-portfolio/
+
 ## Project Description
 
 This project is a simple yet elegant personal portfolio website created to showcase my skills and hobbies. The project includes a clean and responsive design, using HTML, CSS, and JavaScript to provide an interactive and user-friendly experience.
